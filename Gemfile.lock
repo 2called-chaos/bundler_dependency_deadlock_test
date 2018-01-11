@@ -1,5 +1,5 @@
 PATH
-  remote: /tmp/bundler_test/a_gem
+  remote: a_gem
   specs:
     a_gem (2.0.0)
       pry-nav
