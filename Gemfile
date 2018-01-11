@@ -4,7 +4,7 @@ source 'https://www.rubygems.org'
 gem 'pry'
 
 # replication gem of original problematic gem
-gem 'a_gem', path: '/tmp/bundler_test/a_gem'
+gem 'a_gem', path: './a_gem'
 
 # attempt to copy the same pry dependency as rspec-guard but the problem doesn't occur
 #gem 'b_gem', path: '/tmp/bundler_test/b_gem'
@@ -14,3 +14,12 @@ gem 'a_gem', path: '/tmp/bundler_test/a_gem'
 
 # If I remove this it works
 gem 'guard-rspec'
+
+
+gem 'rspec-rails'
+gem 'capybara'
+gem 'rb-fsevent', :require => false
+gem 'ruby_gntp' # growl notifications
+gem 'factory_girl_rails'
+gem 'database_cleaner'
+gem 'simplecov', :require => false
